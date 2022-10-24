@@ -1,4 +1,4 @@
-# KamCode - Pagination Items with Javascript
+# KamCode - Pagination in JavaScript!
 
 If you are looking for how pagination works in Javascript, this little app will help you out!
 This is an app that contains an array data paginated with easy methods
