@@ -4,7 +4,7 @@ If you are looking for how pagination works in Javascript, this little app will 
 This is an app that contains an array data paginated with easy methods
 Check the code & live demo to understand more
 
-↪ [Live Demo](https://medredakamal.github.io/km-pagination-css)
+↪ [Live Demo](https://medredakamal.github.io/km-pagination-js/)
 
 If you are a developer, try to help this repository to get optimized with some pull requests!
 I would love to see that . . .
