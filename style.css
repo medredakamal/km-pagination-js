@@ -54,6 +54,7 @@ ul {
   justify-content: center;
   margin: 10px 1px 15px 1px;
   width: 100%;
+  min-height: 381px;
 }
 
 /* Product Item */
@@ -138,10 +139,10 @@ ul {
 }
 
 .medredakamal__author__card .card__right__side > a {
-      height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .medredakamal__author__card .card__left__side {
