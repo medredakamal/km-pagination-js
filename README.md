@@ -10,7 +10,7 @@ If you are a developer, try to help this repository to get optimized with some p
 I would love to see that . . .
 
 ## Overview
-![ProjectOverview](https://github.com/medredakamal/km-pagination-css/raw/main/screenshot.gif)
+![ProjectOverview](https://github.com/medredakamal/km-pagination-js/raw/main/screenshot.gif)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
