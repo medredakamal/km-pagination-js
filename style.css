@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+
+/* Basics */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
+/* Title */
+.km__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  color: #ffffff;
+}
+
+/* App */
+.km__app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Products Wrapper */
+.km__products__wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 10px 1px 15px 1px;
+  width: 100%;
+}
+
+/* Product Item */
+.km__products__list > .km__product__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 445px;
+  width: 91%;
+  margin: 12px auto;
+  padding: 10px;
+  border: 1.75px solid #d200c1;
+}
+
+/* Product Title */
+.km__products__list > .km__product__item > .km__product__title {
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+/* Product Price */
+.km__products__list > .km__product__item > .km__product__price {
+  font-size: 15px;
+  background-color: #4158d0;
+  color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-flex;
+}
+
+/* Pagination */
+.km__pagination {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Pagination Button */
+.km__pagination > button {
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 19px;
+  padding: 7px 13px;
+  transition: all 0.2s ease;
+}
+
+/* Pagination Active Button */
+.km__pagination > button.km__page__active {
+  color: #fff;
+  background-color: #4158d0;
+}
+
+/* Pagination Button : Hover */
+.km__pagination > button:hover {
+  color: #fff;
+  background-color: #4158d0;
+}
+
+/** Med Reda Kamal Author Card */
+.medredakamal__author__card {
+  background-color: #152033;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-top: 2px solid #00d3f9;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.medredakamal__author__card .card__left__side {
+  margin: 10px 0;
+}
+
+.medredakamal__author__card .card__right__side {
+  margin: 10px 0;
+}
+
+.medredakamal__author__card .card__right__side > a {
+      height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medredakamal__author__card .card__left__side {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  flex-wrap: wrap;
+}
+
+.medredakamal__author__card .card__left__side h1 {
+  font-size: 17px;
+  margin: 3px 0 1px 0;
+  color: #fff;
+}
+
+.medredakamal__author__card .card__left__side p {
+  font-size: 15px;
+  margin: 0 0 7px 0;
+  color: #fff;
+}
+
+.medredakamal__author__card .card__left__side a {
+  display: inline-flex;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+  border: 2px solid #43cfff;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 3px 7px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.medredakamal__author__card .card__left__side a:hover {
+  background-color: #43cfff;
+  border-color: transparent;
+  transform: scale(0.94);
+}
+
+.medredakamal__author__card .card__left__side a > i {
+  margin-right: 5px;
+}
+
+.medredakamal__author__card .medredakamal__image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 35px;
+  margin-right: 10px;
+  border: 2px solid #61c1ff;
+}
+
+.medredakamal__author__card .kamcode__image {
+  width: 160px;
+  height: auto;
+  object-fit: cover;
+  padding: 12px;
+}
+
+/* Med Reda Kamal : Responsive */
+@media (max-width: 799px) {
+  .medredakamal__author__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
