@@ -16,7 +16,7 @@ const km__pagination_wrapper = document.getElementById("km__pagination");
 
 // Global Variables
 let currentPage = 1;
-let itemsPerPage = 6;
+let itemsPerPage = 4;
 
 /** Functions **/
 
